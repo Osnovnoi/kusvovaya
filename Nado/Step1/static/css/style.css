@@ -1,0 +1,19 @@
+.scroll{
+    overflow: scroll;
+    width: 300px;
+    height: 150px; 
+    padding: 5px; 
+    border: solid 5px black; 
+   } 
+body{
+	border: solid 10px green;
+	
+}
+.reg-form{
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	border: solid 5px black;
+
+
+}

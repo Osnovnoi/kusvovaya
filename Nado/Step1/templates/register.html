@@ -1,0 +1,36 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form</title>
+  <link type="text/css" rel="stylesheet" href="{% static 'css/style1.css' %}"/>
+
+</head>
+
+<body>
+
+	<form method='POST' class='reg-form'>
+
+		{% csrf_token %}
+        {{ form }}
+        {%block errors%}
+        {% for x in errors %}
+        <label>{{x}}</label>
+        {%endfor%}
+
+        {% endblock %}
+    
+        
+
+		
+		<div class="form-row">
+			<input type="submit" value='Chat'>
+		</div>		
+			
+
+	</form>
+
+</body>
+
+</html>

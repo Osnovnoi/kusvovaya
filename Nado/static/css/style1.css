@@ -1,0 +1,48 @@
+.reg-form{
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+	border: solid 5px black;
+
+
+}
+.login{
+	width:250px;
+	height: 50px;
+	position: relative;
+	top: 10px;
+	left:5px;
+	margin-right: 10px;
+	border:solid 3px grey;
+	border-radius: 4px;
+}
+input[placeholder]{
+	padding-left: 200px;
+}
+.passwd{
+	width:250px;
+	height: 50px;
+	position: relative;
+	top: 10px;
+	left:5px;
+	margin-right: 10px;
+	border:solid 3px grey;
+	border-radius: 4px;
+
+}
+input[type="submit"]{
+	position: relative;
+	top: -120px;
+	left:200px;
+	width: 60px;
+	height: 60px;
+	border: solid #CD853F 3px;
+	border-radius: 50%;
+	background: white;
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+.Room-select{
+	background: red;
+}

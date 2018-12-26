@@ -1,0 +1,105 @@
+input[name="Create_room"]{
+	width: 90%;
+	height: 50px;
+	margin-left: 80px;
+	border: solid 2px red;
+	color: white;
+	font-weight: bold;	
+	font-size: 24px;
+	background: OrangeRed;
+	position: relative;
+	bottom: 20px;
+
+}
+input[name="NewRoom"]{
+	width: 90%;
+	height: 50px;
+	margin-left: 80px;
+	border: solid 2px #FDF5E6;
+	border-radius:2px;
+position: relative;
+	bottom: 20px;
+
+}
+
+
+input[name="logout"]{
+	background: OrangeRed;
+	width: 90%;
+	height: 50px;
+	margin-left: 80px;
+	border: solid 2px red;
+	color: white;
+	font-weight: bold;	
+	font-size: 24px;
+
+}
+.scroll{
+    overflow: scroll;
+    width: 95%;
+    height: 90%; 
+    padding: 5px; 
+    border: solid 5px green; 
+    position: absolute;
+    margin-right:  20px;
+    overflow-x:hidden;
+	
+
+   } 
+li{
+	list-style-type: none;
+}
+	
+.user{
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+	
+}
+.user > label {
+	color: red;
+}
+.mes{
+	width: 98%;
+	height: 40px;
+	border-radius: 6px;
+	text-align: left;
+	background: #FDF5E6;
+	padding-left: 20px;
+	position: relative;
+	padding-top: 10px;
+	right: 50px;
+	font-size: 24px;
+	color: crimson;
+}
+.sender{
+
+	position: relative;
+	width: 100%;
+	text-align: right;
+	right: 100px;
+	top:-40px;
+
+	font-size: 24px;
+}
+input[name="chat-msg"]{
+	width: 90%;
+	height: 50px;
+	margin-left: 80px;
+	border: solid 2px #FDF5E6;
+
+}
+input[id ="chat-submit"]{
+	height: 50px;
+	width: 80px;
+	position: relative;
+	top:-70px;
+	right: 1px;
+	background: red;
+	color: white;
+	font-weight: bold;
+	border: 2px red;
+	border-radius: 2px;
+
+}
+

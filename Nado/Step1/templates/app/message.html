@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title></title>
+ </head>
+ <body> 
+ 	{% block content %}
+ 		{% for x in form %}
+ 		<label>{{x}}</label>
+ 		{% endfor %}
+ 		<br>
+<label>messages:</label>
+<br>
+ 		{% for x in messages %}
+ 		<label>{{x}}</label><br>
+ 		{% endfor %}
+ 	{% endblock %}</br>
+ 	<br>
+ 
+
+
+ <form action="" method ="GET">
+ 	
+  <p><b>сообщение:</b></p>
+  <p><textarea name="message"></textarea></p>
+  
+  <p><input type="submit"></p>
+ </form>
+  {% csrf_token %}
+ <form name="NewRoom" method="post" action="">
+<input type="submit" name="enter" value="Новая Группа" />
+</form>
+</body>
+</html>
+ </body>
+</html>

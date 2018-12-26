@@ -1,0 +1,12 @@
+
+
+<ul id = 'msg-list'>
+	{% block mes %}
+ 		{% for x in messages %}
+ 		<li class="mes"> {{x}}<li class="sender"> {{x.user_name}}</li></li>
+
+ 		{% endfor %}
+ 	{% endblock %}
+ </ul>
+ 	
+ 
